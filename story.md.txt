@@ -1,0 +1,11 @@
+In the futuristic metropolis of Algorithmia, the Code-Cure Clinic stands as a beacon of order and health.
+ Every day, new patients (known as 'Patient-Objects') arrive seeking care, each with a unique ID and data-illness. 
+The heart of our clinic is the "Doubly-Linked Ward," an endless chain of Bed nodes, where every bed knows what's 
+next to it and what was prev. This special ward is managed by Matron Linked-List, who can glide forward and backward 
+down the line to check on anyone. When a new patient is admitted, she finds an empty Bed node and uses the assignPatient
+ function to link them in. To find a specific patient, we deploy "Search-Specialist Hadia" who uses her HashMap-like 
+brain to searchByPatientName instantly. If we only have a room number, "Array-Ranger Ahmed" can searchByBedNumber to find its 
+status. When a patient is healthy, we call the dischargePatient function, which neatly unlinks them from the bed, making it
+ available again. "Stack-Manager Sarim" handles all the paperwork, ensuring the last patient admitted is the first one he 
+checks on for morning rounds. Together, our team of DS-Wizards ensures every patient is allocated, managed, and 
+cured, with no data ever lost!
